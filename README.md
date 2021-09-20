@@ -3,9 +3,9 @@ word-game (python)
 REQUIREMENTS:
 1)install pyenchant, pillow libraries for the execution of code.
 2)install DB Browser for sqlite3
-3)comment the line "con.execute(create table wuzzle)......" in register function if the database already exists in your system
+3)comment the line "con.execute(create table wuzzle)..." in register function if the database already exists in your system
 
-=========================================================================================================================================
+=============================================================================
 
 1. Login_box
 ![Screenshot (36)](https://user-images.githubusercontent.com/47757720/54480376-cc5f7380-484d-11e9-86ac-1346eacb3d05.png)
