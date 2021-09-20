@@ -283,17 +283,17 @@ class wuzzle:
                     print(x[0])
                     print(x[1])
                     y=index_finder(self.r,swapvar2)
-                    print("index value of 2'st clicked button r[i][j]: ",y)
-                    print(y[0])
-                    print(y[1])
-                    print("before swap")
-                    print("in r: ",self.r[x[0]][x[1]]["text"])
-                    print("in r: ",self.r[y[0]][y[1]]["text"])
+                    #print("index value of 2'st clicked button r[i][j]: ",y)
+                    #print(y[0])
+                    #print(y[1])
+                    #print("before swap")
+                    #print("in r: ",self.r[x[0]][x[1]]["text"])
+                    #print("in r: ",self.r[y[0]][y[1]]["text"])
                     self.r[x[0]][x[1]]["text"]=swapvar2_value
                     self.r[y[0]][y[1]]["text"]=swapvar1_value
-                    print("after swap")
-                    print("in r: ",self.r[x[0]][x[1]]["text"])
-                    print("in r: ",self.r[y[0]][y[1]]["text"])
+                    #print("after swap")
+                    #print("in r: ",self.r[x[0]][x[1]]["text"])
+                    #print("in r: ",self.r[y[0]][y[1]]["text"])
                     note.config(text="swap done for: '"+self.r[y[0]][y[1]]["text"]+"','"+self.r[x[0]][x[1]]["text"]+"'--->'"+self.r[x[0]][x[1]]["text"]+"','"+self.r[y[0]][y[1]]["text"]+"'")
                     op=0
                     for swapallowance[op] in swapallowance:
