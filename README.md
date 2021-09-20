@@ -1,7 +1,7 @@
 # wuzzle-python
-word game(python)
+word-game (python)
 REQUIREMENTS:
-1)install enchant,pillow libraries for the execution of code
+1)install pyenchant, pillow libraries for the execution of code.
 2)install DB Browser for sqlite3
 3)comment the line "con.execute(create table wuzzle)......" in register function if the database already exists in your system
 
